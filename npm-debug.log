@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.8
+4 verbose publish [ '.' ]
+5 verbose read json /Users/avnerner/dev/repos/comma-it/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/avnerner/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz
+14 verbose folder .
+15 info prepublish comma-it@0.0.2
+16 silly lockFile b28b9d10-25500-0-7002023321110755-tmp-tgz /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz
+17 verbose lock /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz /Users/avnerner/.npm/b28b9d10-25500-0-7002023321110755-tmp-tgz.lock
+18 silly lockFile b28b9d10-25500-0-7002023321110755-tmp-tgz /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz
+19 verbose tar unpack /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/tmp.tgz
+20 silly lockFile f9d0fc64-25500-0-7002023321110755-package /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package
+21 verbose lock /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package /Users/avnerner/.npm/f9d0fc64-25500-0-7002023321110755-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry comma-it.js
+25 silly gunzTarPerm extractEntry readme.md
+26 silly gunzTarPerm extractEntry test/comma-it-test.js
+27 verbose read json /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package/package.json
+28 silly lockFile f9d0fc64-25500-0-7002023321110755-package /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package
+29 verbose from cache /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package/package.json
+30 verbose tar pack [ '/Users/avnerner/.npm/comma-it/0.0.2/package.tgz',
+30 verbose tar pack   '/var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package' ]
+31 verbose tarball /Users/avnerner/.npm/comma-it/0.0.2/package.tgz
+32 verbose folder /var/folders/fk/c48k4sr120j2_spc5lrg4g100000gn/T/npm-41012/1349283525500-0.7002023321110755/package
+33 silly lockFile 69dbe827-r-npm-comma-it-0-0-2-package-tgz /Users/avnerner/.npm/comma-it/0.0.2/package.tgz
+34 verbose lock /Users/avnerner/.npm/comma-it/0.0.2/package.tgz /Users/avnerner/.npm/69dbe827-r-npm-comma-it-0-0-2-package-tgz.lock
+35 silly lockFile 69dbe827-r-npm-comma-it-0-0-2-package-tgz /Users/avnerner/.npm/comma-it/0.0.2/package.tgz
+36 silly lockFile b72a1dde-erner-npm-comma-it-0-0-2-package /Users/avnerner/.npm/comma-it/0.0.2/package
+37 verbose lock /Users/avnerner/.npm/comma-it/0.0.2/package /Users/avnerner/.npm/b72a1dde-erner-npm-comma-it-0-0-2-package.lock
+38 silly lockFile b72a1dde-erner-npm-comma-it-0-0-2-package /Users/avnerner/.npm/comma-it/0.0.2/package
+39 verbose tar unpack /Users/avnerner/.npm/comma-it/0.0.2/package.tgz
+40 silly lockFile b72a1dde-erner-npm-comma-it-0-0-2-package /Users/avnerner/.npm/comma-it/0.0.2/package
+41 verbose lock /Users/avnerner/.npm/comma-it/0.0.2/package /Users/avnerner/.npm/b72a1dde-erner-npm-comma-it-0-0-2-package.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry comma-it.js
+45 silly gunzTarPerm extractEntry readme.md
+46 silly gunzTarPerm extractEntry test/comma-it-test.js
+47 verbose read json /Users/avnerner/.npm/comma-it/0.0.2/package/package.json
+48 silly lockFile b72a1dde-erner-npm-comma-it-0-0-2-package /Users/avnerner/.npm/comma-it/0.0.2/package
+49 silly shasum updated bytes 1117
+50 info shasum 6a11e7b68517a180913abf180646ee753c8a86a0
+50 info shasum /Users/avnerner/.npm/comma-it/0.0.2/package.tgz
+51 verbose from cache /Users/avnerner/.npm/comma-it/0.0.2/package/package.json
+52 verbose chmod /Users/avnerner/.npm/comma-it/0.0.2/package.tgz 644
+53 verbose chown /Users/avnerner/.npm/comma-it/0.0.2/package.tgz [ 501, 20 ]
+54 silly lockFile 3a52ce78- .
+55 silly publish { name: 'comma-it',
+55 silly publish   version: '0.0.2',
+55 silly publish   description: 'Node.js module convert numbers to amounts',
+55 silly publish   main: 'comma-it.js',
+55 silly publish   author: { name: 'Avner Cohen' },
+55 silly publish   keywords: [ 'Amounts', 'Commas', 'Numbers' ],
+55 silly publish   repository: { type: 'git', url: 'git@github.com:AvnerCohen/comma-it.git' },
+55 silly publish   dependencies: {},
+55 silly publish   engines: { node: '*' },
+55 silly publish   readme: 'Comma-It.js\n===========\n\nTiny module to turn numbers into a more readble amounts by adding commas:\n> 1234.5  => 1,234.50\n\n\nAt some point in time it\'s very easy to add support for multiple precisions and setup for precision and thousands seperator char, these are different in different parts of the world ofcourse.\n\n[@avnerner](https://www.twitter.com/avnerner "@avnerner")\n\n\n',
+55 silly publish   _id: 'comma-it@0.0.2',
+55 silly publish   dist: { shasum: '6a11e7b68517a180913abf180646ee753c8a86a0' } }
+56 verbose url raw comma-it
+57 verbose url resolving [ 'https://registry.npmjs.org/', './comma-it' ]
+58 verbose url resolved https://registry.npmjs.org/comma-it
+59 info trying registry request attempt 1 at 18:58:45
+60 http PUT https://registry.npmjs.org/comma-it
+61 http 409 https://registry.npmjs.org/comma-it
+62 verbose url raw comma-it
+63 verbose url resolving [ 'https://registry.npmjs.org/', './comma-it' ]
+64 verbose url resolved https://registry.npmjs.org/comma-it
+65 info trying registry request attempt 1 at 18:58:47
+66 http GET https://registry.npmjs.org/comma-it
+67 http 200 https://registry.npmjs.org/comma-it
+68 error publish fail Cannot publish over existing version.
+68 error publish fail Bump the 'version' field, set the --force flag, or
+68 error publish fail     npm unpublish 'comma-it@0.0.2'
+68 error publish fail and try again
+69 error System Darwin 12.2.0
+70 error command "node" "/usr/local/bin/npm" "publish"
+71 error cwd /Users/avnerner/dev/repos/comma-it
+72 error node -v v0.8.8
+73 error npm -v 1.1.62
+74 error code EPUBLISHCONFLICT
+75 verbose exit [ 1, true ]

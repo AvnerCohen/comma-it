@@ -2,6 +2,9 @@ var commaIt = require("../comma-it").commaIt;
 var assert = require("assert");
 
 
+var zero = "0";
+assert.equal(commaIt(zero), "0");
+
 //## Without precision
 //Check simplest formatting
 var number = "1234";

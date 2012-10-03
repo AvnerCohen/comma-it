@@ -1,0 +1,15 @@
+{
+    "name": "comma-it",
+    "version": "0.0.1",
+    "description": "Node.js module convert numbers to amounts",
+    "main": "comma-it.js",
+    "author": "Avner Cohen",
+    "keywords": ["Amounts", "Commas", "Numbers"],
+    "repository" : {
+        "type": "git",
+        "url": "git@github.com:AvnerCohen/comma-it.git"
+    },
+    "dependencies": {
+    },
+    "engines": { "node": "*" }
+}

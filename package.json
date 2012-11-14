@@ -11,5 +11,8 @@
     },
     "dependencies": {
     },
+    "scripts" : {
+        "test" : "node test/comma-it-test.js"
+    },
     "engines": { "node": "*" }
 }

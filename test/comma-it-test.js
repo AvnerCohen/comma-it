@@ -47,7 +47,8 @@ assert.equal(commaIt(number2, {decimalSeperator : '.'}), '12 341 233.12');
 var number2 = '12341233.1256';
 assert.equal(commaIt(number2, {precision: 4, decimalSeperator : '.'}), '12 341 233.1256');
 
-
+//Support for Negative numbers with thousdand seperator
+assert.equal(commaIt('-140000', {thousandSeperator:',', decimalSeperator: '.'}), '-140,000.00');
 
 console.log('testing done');
 

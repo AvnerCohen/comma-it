@@ -1,6 +1,6 @@
 {
     "name": "comma-it",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Node.js module convert numbers to amounts",
     "main": "comma-it.js",
     "author": "Avner Cohen",
